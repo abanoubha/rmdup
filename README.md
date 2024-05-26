@@ -2,6 +2,16 @@
 
 remove duplicate files ; find duplicate files and choose to remove them.
 
+## Commands
+
+```sh
+# build
+go mod tidy && go build -o rmdup .
+
+# run
+./rmdup
+```
+
 ## Resources & References
 
 - [dupeguru](https://github.com/arsenetar/dupeguru) written in python 3 + C
