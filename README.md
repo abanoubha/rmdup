@@ -10,6 +10,9 @@ go mod tidy && go build -o rmdup .
 
 # run
 ./rmdup
+
+# detect race conditions / memory leaks
+go run -race .
 ```
 
 ## Resources & References
@@ -25,4 +28,3 @@ go mod tidy && go build -o rmdup .
 - [ ] indexing: storing a hashmap of files
 - [ ] search for duplicates
 - [ ] remove the duplicate file, if the user chose so
-
