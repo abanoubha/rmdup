@@ -1,9 +1,11 @@
 package main
 
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
-
-func main(){
-
+func main() {
+	fmt.Println("running...")
 	os.Exit(0)
 }
